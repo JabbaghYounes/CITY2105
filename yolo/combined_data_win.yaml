@@ -1,0 +1,8 @@
+# data yaml file on windows for training
+path: C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset # file path
+train: C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\train\images  # path to training images
+val: C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\validation\images  # path to validation images
+
+nc: 4  # number of clases in dataset
+
+names: ['jabba', 'josh', 'phil', 'kaarina'] # class list

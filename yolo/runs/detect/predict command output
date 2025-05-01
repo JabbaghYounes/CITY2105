@@ -1,0 +1,15 @@
+yolo predict model="C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\runs\detect\train5\weights\best.pt" source="C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images" conf=0.5
+Ultralytics 8.3.103 🚀 Python-3.12.7 torch-2.6.0+cpu CPU (AMD Ryzen 9 7950X 16-Core Processor)
+Model summary (fused): 72 layers, 3,006,428 parameters, 0 gradients, 8.1 GFLOPs
+
+image 1/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\2b1b05ce-combined_image79.jpg: 800x800 1 josh, 1 phil, 1 kaarina, 39.5ms
+image 2/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\47142b88-combined_image31.jpg: 800x800 1 jabba, 1 josh, 1 phil, 26.9ms
+image 3/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\65342ca5-combined_image4.jpg: 800x800 1 jabba, 1 josh, 1 phil, 23.1ms
+image 4/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\6adc8368-combined_image36.jpg: 800x800 1 josh, 1 phil, 27.0ms
+image 5/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\ac1e52d2-combined_image87.jpg: 800x800 1 josh, 1 phil, 1 kaarina, 22.8ms
+image 6/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\d81cc691-combined_image6.jpg: 800x800 1 josh, 1 phil, 1 kaarina, 26.2ms
+image 7/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\eaf43c5f-combined_image10.jpg: 800x800 1 jabba, 2 joshs, 1 phil, 1 kaarina, 27.1ms
+image 8/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\fbd3ac23-combined_image86.jpg: 800x800 1 josh, 1 phil, 22.8ms
+image 9/9 C:\Users\georg\Desktop\CITY2105-TRAINED-NEW\yolo\combined_dataset\test\images\febd8cc7-combined_image29.jpg: 800x800 1 josh, 1 phil, 26.2ms
+Speed: 2.1ms preprocess, 26.8ms inference, 0.4ms postprocess per image at shape (1, 3, 800, 800)
+Results saved to runs\detect\predict

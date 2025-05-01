@@ -1,0 +1,9 @@
+# data.yaml for training
+path: /home/snpi/Desktop/CITY2105/yolo/data # file path
+train: /home/snpi/Desktop/CITY2105/yolo/data/train/images  # path to training images
+val: /home/snpi/Desktop/CITY2105/yolo/data/validation/images  # path to validation images
+test: /home/snpi/Desktop/CITY2105/yolo/data/test/images  # path to test images
+
+nc: 3  # number of clases in dataset
+
+names: ['jabba', 'josh', 'phil'] # class list

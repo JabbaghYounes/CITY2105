@@ -1,0 +1,7 @@
+Tain 1 and Train 2 folders are failed runs due to hardware limitations (tested on pi).
+
+Train 3 is the dataset with only 3 faces using the yolov11 model. 
+
+Train 4 is the dataset with 4 faces using the yolov11 model. 
+
+Train 5 is the dataset with 4 faces using the yolov8 model.
